@@ -1,11 +1,12 @@
-import { FaceSmileIcon, PhotoIcon } from '@heroicons/react/24/solid'
+import { FaceSmileIcon, PhotoIcon } from '@heroicons/react/24/outline'
 import React from 'react'
 
 export default function Input() {
+
   return (
     <div className='flex border-b border-gray-200 p-3 space-x-3'>
         <img className='h-11 w-11 rounded-full cursor-pointer hover:brightness-95' src="https://znews-stc.zdn.vn/static/topic/person/messi.jpg" alt="user-img"/>
-        <div className='w-full divide-y divide-gray-700'>
+        <div className='w-full divide-y divide-gray-200'>
             <div className=''>
                 <textarea className='w-full tracking-wide min-h-[50px] text-gray-700 border-gray-200 focus:ring-0 focus:border-blue-400 text-lg placeholder-gray-700'rows="2" placeholder="What's happening ?"></textarea>
             </div>
